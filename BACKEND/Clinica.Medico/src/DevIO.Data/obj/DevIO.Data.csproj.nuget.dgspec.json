@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj": {}
+  },
+  "projects": {
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "projectName": "DevIO.Bussines",
+        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "packagesPath": "C:\\Users\\guism\\.nuget\\packages\\",
+        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectName": "DevIO.Data",
+        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "packagesPath": "C:\\Users\\guism\\.nuget\\packages\\",
+        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
+                "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

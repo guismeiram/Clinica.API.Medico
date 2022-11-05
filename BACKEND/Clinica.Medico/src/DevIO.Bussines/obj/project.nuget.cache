@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xfucZm86KINyQ7jmQyb2Q1JOUqJEX6tMA1Z4+SOtLowwOYlOv+NtbaKPe2unHyOD+4STXrZhzN5gzITDpBNQjQ==",
+  "success": true,
+  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guism\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

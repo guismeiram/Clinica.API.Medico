@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MsZmbku5AOwvN32mYz1b/toYFctQfvblgDyMgNauKBy9ayVnUVjVxXgTx3RKDr7MGeOaXJr49B6HyxC0ljYNcg==",
+  "success": true,
+  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
