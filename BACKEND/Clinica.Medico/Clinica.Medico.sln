@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Bussines", "src\DevIO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Data", "src\DevIO.Data\DevIO.Data.csproj", "{1C21D6B2-C2A7-4535-9EC2-4F702AC6AD46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Api", "..\..\..\Clinica-FULLSTACK\BACKEND\Clinica.Medico\src\DevIO.Api\DevIO.Api.csproj", "{7D621EEC-49FB-4686-934E-7FFD69AA37B6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,10 +23,6 @@ Global
 		{1C21D6B2-C2A7-4535-9EC2-4F702AC6AD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C21D6B2-C2A7-4535-9EC2-4F702AC6AD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C21D6B2-C2A7-4535-9EC2-4F702AC6AD46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D621EEC-49FB-4686-934E-7FFD69AA37B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D621EEC-49FB-4686-934E-7FFD69AA37B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D621EEC-49FB-4686-934E-7FFD69AA37B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D621EEC-49FB-4686-934E-7FFD69AA37B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,7 +30,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{89FCDAF6-FB05-409F-B7C0-2E2CC1BC47D4} = {AD4BFADA-227C-4A35-831B-EB25DBB18F8E}
 		{1C21D6B2-C2A7-4535-9EC2-4F702AC6AD46} = {AD4BFADA-227C-4A35-831B-EB25DBB18F8E}
-		{7D621EEC-49FB-4686-934E-7FFD69AA37B6} = {AD4BFADA-227C-4A35-831B-EB25DBB18F8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E08200A-2DB5-4BF9-8CD0-AFC333235333}
