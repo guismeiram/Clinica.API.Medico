@@ -12,7 +12,6 @@ namespace DevIO.Data.Context
             ChangeTracker.AutoDetectChangesEnabled = false;
         }
 
-        public DbSet<Convenio> Convenio { get; set; }
        
 
 

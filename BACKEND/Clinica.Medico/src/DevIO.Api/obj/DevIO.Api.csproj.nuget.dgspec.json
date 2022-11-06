@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj": {}
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj": {
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
         "projectName": "DevIO.Api",
-        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\guism\\.nuget\\packages\\",
-        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\obj\\",
+        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guism\\AppData\\Roaming\\NuGet\\NuGet.Config",

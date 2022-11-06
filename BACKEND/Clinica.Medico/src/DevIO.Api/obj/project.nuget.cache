@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MsZmbku5AOwvN32mYz1b/toYFctQfvblgDyMgNauKBy9ayVnUVjVxXgTx3RKDr7MGeOaXJr49B6HyxC0ljYNcg==",
+  "dgSpecHash": "sjJAjHQEumy+6YjE8Q8sYyfFFFM9PG+TDV9BXwOZcieW1Zaxqx5Kk5oWRIJFQnFVF/50RzIUVzikEfQ5rNli6Q==",
   "success": true,
-  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica-FULLSTACK\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
