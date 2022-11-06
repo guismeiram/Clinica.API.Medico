@@ -1,0 +1,7 @@
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.csproj.AssemblyReference.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.GeneratedMSBuildEditorConfig.editorconfig
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.AssemblyInfoInputs.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.AssemblyInfo.cs
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.csproj.CoreCompileInputs.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.MvcApplicationPartsAssemblyInfo.cs
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.MvcApplicationPartsAssemblyInfo.cache
