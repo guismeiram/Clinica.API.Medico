@@ -10,6 +10,8 @@
     <None Remove="Models\Endereco.cs~RF84c83fa.TMP" />
     <None Remove="Models\ocbeidwq.rxu~" />
     <None Remove="Models\ythk4dfn.ryc~" />
+    <None Remove="Services\3e22e3ye.bee~" />
+    <None Remove="Services\ConsultaService.cs~RF11f2101.TMP" />
   </ItemGroup>
 
   <ItemGroup>

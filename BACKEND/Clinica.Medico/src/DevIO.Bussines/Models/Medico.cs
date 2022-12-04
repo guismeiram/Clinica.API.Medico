@@ -12,7 +12,7 @@ namespace DevIO.Bussines.Models
         public string Ddd { get; set; }
         // relacionamentos
         public virtual Consulta Consultas { get; set; }
-        public virtual IEnumerable<MedicoEspecialidade> Especialidades { get; set; }
+        public virtual IEnumerable<MedicoEspecialidade> MedicoEspecialidades { get; set; }
 
     }
 }

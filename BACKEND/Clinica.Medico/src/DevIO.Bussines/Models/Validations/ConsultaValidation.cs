@@ -10,10 +10,10 @@ namespace DevIO.Bussines.Models.Validations
     public class ConsultaValidation : AbstractValidator<Consulta>
     {
         public ConsultaValidation()
-        {/*
+        {
             RuleFor(f => f.Data)
                 .NotEmpty().WithMessage("Data required");
-            */
+           
         }
     }
 }

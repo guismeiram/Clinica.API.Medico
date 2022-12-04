@@ -21,9 +21,13 @@ namespace DevIO.Data.Repository
             throw new NotImplementedException();
         }
 
-        public Task<Consulta> obterConsultaClinicaPaciente(string id)
+        public async Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente(string id)
         {
-            throw new NotImplementedException();
+            return await Db.Consulta.Where(a => a.Id == id)
+               .Include(a => a.Medico)
+               .ThenInclude(b => b.MedicoEspecialidades)
+               .ThenInclude(b => b.Especialidade)
+               .ToListAsync();
         }
 
         public Task<Consulta> ObterConsultaPaciente(string id)

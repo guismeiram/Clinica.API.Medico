@@ -27,7 +27,7 @@ namespace DevIO.Data.Mappings
                 .HasColumnType("varchar(250)");
 
             //1 : N Medico : Especialidades
-            builder.HasMany(e => e.Especialidades)
+            builder.HasMany(e => e.MedicoEspecialidades)
                 .WithOne(m => m.Medico)
                 .HasForeignKey(m => m.MedicoId);
 

@@ -12,15 +12,21 @@ namespace DevIO.Bussines.Services
     public class ConsultaService : BaseService, IConsultaService
     {
         private readonly IConsultaRepository _consultaRepository;
+        private readonly IMedicoRepository _medicoRepository;
 
-        public ConsultaService(INotificador notificador, IConsultaRepository consultaRepository) : base(notificador)
+        public ConsultaService(INotificador notificador, 
+                        IConsultaRepository consultaRepository,
+                        IMedicoRepository medicoRepository) : base(notificador)
         {
-            _consultaRepository = consultaRepository;   
+            _consultaRepository = consultaRepository;
+            _medicoRepository = medicoRepository;
         }
 
         public async Task Adicionar(Consulta consulta)
         {
-            if (!ExecutarValidacao(new ConsultaValidation(), consulta)) return;
+            if (!ExecutarValidacao(new ConsultaValidation(), consulta) || 
+                !ExecutarValidacao(new MedicoValidation(), consulta.Medico) 
+               ) return;
 
             await _consultaRepository.Adicionar(consulta);
         }

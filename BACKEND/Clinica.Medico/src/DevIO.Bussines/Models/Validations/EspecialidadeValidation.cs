@@ -11,10 +11,10 @@ namespace DevIO.Bussines.Models.Validations
     {
         public EspecialidadeValidation()
         {
-           /* RuleFor(c => c.Nome)
+           RuleFor(c => c.Nome)
               .NotEmpty().WithMessage("O campo {PropertyName} precisa de uma Especialidade")
               .Length(2, 200).WithMessage("O campo {PropertyName} precisa ter entre {MinLength} e {MaxLength} caracteres");
-           */
+           
         }
     }
 }

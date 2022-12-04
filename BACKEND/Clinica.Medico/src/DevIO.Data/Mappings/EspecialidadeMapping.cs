@@ -16,7 +16,7 @@ namespace DevIO.Data.Mappings
             builder.HasKey(prop => prop.Id);
 
             //1 : N Especialidade : Medicos
-            builder.HasMany(e => e.Medicos)
+            builder.HasMany(e => e.EspecialidadeMedicos)
                 .WithOne(m => m.Especialidade)
                 .HasForeignKey(m => m.EspecialidadeId);
 
