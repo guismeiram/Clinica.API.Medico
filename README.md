@@ -1,5 +1,4 @@
 # Clinica.API.Medico
-Clinica.API.Convenio<br>
 Clinica-.API.Medico é destinado a estudos.<br><br>
 
 O projeto é feito em c#. E é constituido por camadas com libs no Padrão MVC, utilizando Entityframework na camada Data, validações com fluent api(Bussines) e geração e atualização de migrations. <br>
