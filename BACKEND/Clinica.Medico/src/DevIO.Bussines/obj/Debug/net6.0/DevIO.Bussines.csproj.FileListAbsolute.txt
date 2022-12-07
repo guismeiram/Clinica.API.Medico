@@ -34,3 +34,15 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.pdb
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.Fullstack.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\ref\DevIO.Bussines.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.csproj.AssemblyReference.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.GeneratedMSBuildEditorConfig.editorconfig
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.AssemblyInfoInputs.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.AssemblyInfo.cs
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.csproj.CoreCompileInputs.cache
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\refint\DevIO.Bussines.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.pdb
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.deps.json
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.pdb
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\ref\DevIO.Bussines.dll

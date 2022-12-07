@@ -6,17 +6,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Reflection.Emit;
 
 namespace DevIO.Data.Mappings
 {
-    public class MedicoEspecialidadeMapping : IEntityTypeConfiguration<MedicoEspecialidade>
+    public class ClinicaMapping : IEntityTypeConfiguration<Clinica>
     {
-        public void Configure(EntityTypeBuilder<MedicoEspecialidade> builder)
+        public void Configure(EntityTypeBuilder<Clinica> builder)
         {
             builder.HasKey(prop => prop.Id);
 
-            builder.HasKey(sc => new { sc.EspecialidadeId, sc.MedicoId });
+            builder.Property(c => c.NomeClinica)
+                .IsRequired()
+                .HasColumnType("varchar(200)");
+
+            
 
         }
     }

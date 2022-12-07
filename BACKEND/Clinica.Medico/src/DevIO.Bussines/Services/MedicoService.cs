@@ -1,5 +1,6 @@
 ﻿using DevIO.Bussines.Interface;
 using DevIO.Bussines.Models;
+using DevIO.Bussines.Models.Validations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,31 +11,43 @@ namespace DevIO.Bussines.Services
 {
     public class MedicoService : BaseService, IMedicoService
     {
-        public MedicoService(INotificador notificador) : base(notificador)
+        private readonly IMedicoRepository _medicoRepository;
+        private readonly IConsultaRepository _consultaRepository;
+
+        public MedicoService(INotificador notificador,
+                              IMedicoRepository medicoRepository,
+                              IConsultaRepository consultaRepository) : base(notificador)
         {
+            _medicoRepository = medicoRepository;
+            _consultaRepository = consultaRepository;
         }
 
-        public Task Adicionar(Medico medico)
+        public async Task<bool> Adicionar(Medico medico)
+        {
+            if(!ExecutarValidacao(new MedicoValidation(), medico) ||
+                !ExecutarValidacao(new ClinicaValidation(), medico.Clinicas))
+
+            await _medicoRepository.Adicionar(medico);
+            return true;
+        }
+
+        public Task<bool> Atualizar(Medico medico)
         {
             throw new NotImplementedException();
         }
 
-        public Task Atualizar(Medico medico)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task AtualizarMedico(Medico medico)
+        public Task<bool> AtualizarMedico(Medico medico)
         {
             throw new NotImplementedException();
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _medicoRepository?.Dispose();
+            _consultaRepository?.Dispose();
         }
 
-        public Task Remover(string id)
+        public Task<bool> Remover(string id)
         {
             throw new NotImplementedException();
         }

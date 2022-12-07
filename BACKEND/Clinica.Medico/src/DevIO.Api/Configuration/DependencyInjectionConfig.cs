@@ -13,7 +13,6 @@ namespace DevIO.Api.Configuration
             services.AddScoped<ClinicaDbContext>();
           
             services.AddScoped<IConsultaRepository, ConsultaRepository>();
-            services.AddScoped<IEspecialidadeRepository, EspecialidadeRepository>();
             services.AddScoped<IMedicoRepository, MedicoRepository>();
             
 

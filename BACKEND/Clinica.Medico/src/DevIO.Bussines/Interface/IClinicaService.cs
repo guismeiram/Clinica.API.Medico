@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DevIO.Bussines.Interface
 {
-    public interface IMedicoService : IDisposable
+    public interface IClinicaService : IDisposable
     {
-        Task<bool> Adicionar(Medico medico);
-        Task<bool> Atualizar(Medico medico);
-        Task<bool> Remover(String id);
+        Task Adicionar(Clinica clinica);
+        Task Atualizar(Clinica clinica);
+        Task Remover(string id);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQ08tZCU+AmMI2/NgI4LuqebGgEH4OEjpAquiBFDdimWPMxGvVF4zCsY636ecVAIve9PTo9F9NwrtPiycIdakA==",
+  "dgSpecHash": "pFaB3inje/wx3Rz0GqHgm852Iqhg2EduWHHmfXHq93BnPTau1SCaT1+LdNOdC85YD/E1EBjpjh0AAJcBJJlQRw==",
   "success": true,
-  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

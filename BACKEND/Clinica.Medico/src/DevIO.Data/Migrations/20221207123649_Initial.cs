@@ -10,18 +10,6 @@ namespace DevIO.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Especialidade",
-                columns: table => new
-                {
-                    Id = table.Column<string>(type: "varchar(100)", nullable: false),
-                    Nome = table.Column<string>(type: "varchar(100)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Especialidade", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Medico",
                 columns: table => new
                 {
@@ -35,6 +23,25 @@ namespace DevIO.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Medico", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Clinica",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "varchar(100)", nullable: false),
+                    NomeClinica = table.Column<string>(type: "varchar(200)", nullable: false),
+                    MedicoId = table.Column<string>(type: "varchar(100)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clinica", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Clinica_Medico_MedicoId",
+                        column: x => x.MedicoId,
+                        principalTable: "Medico",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -56,53 +63,25 @@ namespace DevIO.Data.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "MedicoEspecialidade",
-                columns: table => new
-                {
-                    MedicoId = table.Column<string>(type: "varchar(100)", nullable: false),
-                    EspecialidadeId = table.Column<string>(type: "varchar(100)", nullable: false),
-                    Id = table.Column<string>(type: "varchar(100)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_MedicoEspecialidade", x => new { x.EspecialidadeId, x.MedicoId });
-                    table.ForeignKey(
-                        name: "FK_MedicoEspecialidade_Especialidade_EspecialidadeId",
-                        column: x => x.EspecialidadeId,
-                        principalTable: "Especialidade",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_MedicoEspecialidade_Medico_MedicoId",
-                        column: x => x.MedicoId,
-                        principalTable: "Medico",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
             migrationBuilder.CreateIndex(
-                name: "IX_Consulta_MedicoId",
-                table: "Consulta",
+                name: "IX_Clinica_MedicoId",
+                table: "Clinica",
                 column: "MedicoId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_MedicoEspecialidade_MedicoId",
-                table: "MedicoEspecialidade",
+                name: "IX_Consulta_MedicoId",
+                table: "Consulta",
                 column: "MedicoId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Clinica");
+
+            migrationBuilder.DropTable(
                 name: "Consulta");
-
-            migrationBuilder.DropTable(
-                name: "MedicoEspecialidade");
-
-            migrationBuilder.DropTable(
-                name: "Especialidade");
 
             migrationBuilder.DropTable(
                 name: "Medico");

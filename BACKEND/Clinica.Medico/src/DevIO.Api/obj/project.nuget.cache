@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rbr7VaJwkQDCMe/b+89dbcr/I9F+4vHwmEaIn9Ql5xEDRtrLfsOifyBSXVAT24RMeo6Djo/Ynw0YSRnx5/Ox+w==",
+  "dgSpecHash": "xogwpbWsF9zEe3MOdhpsk8voY1hB9RMcm8r2o7xP0lQdD6ioXi4CxRtSzHuFhZxLy3vcg/pgohZdH3Z5bntVrg==",
   "success": true,
-  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

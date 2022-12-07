@@ -25,8 +25,6 @@ namespace DevIO.Data.Repository
         {
             return await Db.Consulta.Where(a => a.Id == id)
                .Include(a => a.Medico)
-               .ThenInclude(b => b.MedicoEspecialidades)
-               .ThenInclude(b => b.Especialidade)
                .ToListAsync();
         }
 

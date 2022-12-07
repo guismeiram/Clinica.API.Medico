@@ -13,9 +13,7 @@ namespace DevIO.Data.Context
         }
 
         public DbSet<Consulta> Consulta { get; set; }
-        public DbSet<Especialidade> Especialidade { get; set; }
         public DbSet<Medico> Medico { get; set; }
-        public DbSet<MedicoEspecialidade> MedicoEspecialidade { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Bussines.Services
 {
-    public class MedicoEspecialidadeService
+    public class ClinicaService
     {
     }
 }

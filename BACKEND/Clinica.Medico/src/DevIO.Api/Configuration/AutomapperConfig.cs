@@ -10,9 +10,7 @@ namespace DevIO.Api.Configuration
         {
            
             CreateMap<Consulta, ConsultaViewModel>().ReverseMap();
-            CreateMap<Especialidade, EspecialidadeViewModel>().ReverseMap();
             CreateMap<Medico, MedicoViewModel>().ReverseMap();
-            CreateMap<MedicoEspecialidade, MedicoEspecialidadeViewModel>().ReverseMap();
             
 
         }

@@ -13,6 +13,5 @@ namespace DevIO.Bussines.Interface
         Task Atualizar(Consulta consulta);
         Task Remover(Guid id);
 
-        Task AtualizarEndereco(Consulta consulta);
     }
 }

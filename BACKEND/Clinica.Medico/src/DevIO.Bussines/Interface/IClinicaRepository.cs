@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace DevIO.Bussines.Interface
 {
-    public interface IEspecialidadeRepository : IRepository<Especialidade>
+    public interface IClinicaRepository : IRepository<Clinica>
     {
-        Task<IEnumerable<Especialidade>> ObterEspecialidadeMedico(string especialidadeId);
+        Task<Clinica> obterClinicaPorConsulta(string id);
+
 
     }
 }

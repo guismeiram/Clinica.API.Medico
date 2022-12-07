@@ -15,6 +15,9 @@ namespace DevIO.Data.Repository
         {
         }
 
-       
+        public Task<IEnumerable<Medico>> obterConsultaMedico(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

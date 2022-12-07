@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {}
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {}
   },
   "projects": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
+    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
         "projectName": "DevIO.Bussines",
-        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
         "packagesPath": "C:\\Users\\guism\\.nuget\\packages\\",
-        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.Fullstack.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\obj\\",
+        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guism\\AppData\\Roaming\\NuGet\\NuGet.Config",

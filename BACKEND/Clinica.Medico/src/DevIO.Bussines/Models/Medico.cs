@@ -5,14 +5,18 @@ namespace DevIO.Bussines.Models
 {
     public class Medico : Entity
     {
+        //ids
         public string Nome { get; set; }
         public string Crm { get; set; }
         public int Idade { get; set; }
         public string Telefone { get; set; }
         public string Ddd { get; set; }
+
+
         // relacionamentos
-        public virtual Consulta Consultas { get; set; }
-        public virtual IEnumerable<MedicoEspecialidade> MedicoEspecialidades { get; set; }
+        public virtual Clinica Clinicas { get; set; }
+        public virtual IEnumerable<Consulta> Consultas { get; set; }
+
 
     }
 }
