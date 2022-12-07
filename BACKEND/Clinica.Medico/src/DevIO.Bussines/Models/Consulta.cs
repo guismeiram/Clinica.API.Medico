@@ -7,7 +7,7 @@ namespace DevIO.Bussines.Models
         public DateTime Data { get; set; }
 
         // relacionamentos
-        public virtual Medico Medico { get; set; }
+        public virtual Medico Medicos { get; set; }
 
     }
 }

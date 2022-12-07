@@ -14,8 +14,8 @@ namespace DevIO.Api.ViewModels
         public string Telefone { get; set; }
         public string Ddd { get; set; }
         // relacionamentos
-        public virtual Consulta Consultas { get; set; }
-        public virtual IEnumerable<Clinica> Clinicas { get; set; }
+        public virtual ConsultaViewModel Consultas { get; set; }
+        public virtual IEnumerable<ClinicaViewModel> Clinicas { get; set; }
 
     }
 }

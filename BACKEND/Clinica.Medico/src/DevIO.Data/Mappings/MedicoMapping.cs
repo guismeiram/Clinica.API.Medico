@@ -42,7 +42,7 @@ namespace DevIO.Data.Mappings
 
             //1 : N Medico : Consulta
             builder.HasMany(c => c.Consultas)
-               .WithOne(p => p.Medico)
+               .WithOne(p => p.Medicos)
                .HasForeignKey(p => p.MedicoId);
 
             builder.ToTable("Medico");

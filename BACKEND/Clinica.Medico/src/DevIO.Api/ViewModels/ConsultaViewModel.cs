@@ -9,7 +9,7 @@ namespace DevIO.Api.ViewModels
         public DateTime Data { get; set; }
 
         // relacionamentos
-        public virtual Medico Medico { get; set; }
+        public virtual MedicoViewModel Medicos { get; set; }
 
     }
 }

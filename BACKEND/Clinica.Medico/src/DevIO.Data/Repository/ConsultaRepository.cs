@@ -24,7 +24,7 @@ namespace DevIO.Data.Repository
         public async Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente(string id)
         {
             return await Db.Consulta.Where(a => a.Id == id)
-               .Include(a => a.Medico)
+               .Include(a => a.Medicos)
                .ToListAsync();
         }
 
