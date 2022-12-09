@@ -93,8 +93,6 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\FluentValidation.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Humanizer.dll
-G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -113,7 +111,6 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
-G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -146,3 +143,6 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.csproj.CopyComplete
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.genruntimeconfig.cache
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\ref\DevIO.Api.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

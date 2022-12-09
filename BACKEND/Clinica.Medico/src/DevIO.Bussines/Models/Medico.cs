@@ -1,4 +1,5 @@
 ﻿using DevIO.Bussines.Models;
+using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
 namespace DevIO.Bussines.Models
@@ -15,6 +16,7 @@ namespace DevIO.Bussines.Models
 
         // relacionamentos
         public virtual Clinica Clinicas { get; set; }
+
         public virtual IEnumerable<Consulta> Consultas { get; set; }
 
 

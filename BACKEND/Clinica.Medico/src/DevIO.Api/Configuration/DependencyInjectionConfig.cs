@@ -14,11 +14,12 @@ namespace DevIO.Api.Configuration
           
             services.AddScoped<IConsultaRepository, ConsultaRepository>();
             services.AddScoped<IMedicoRepository, MedicoRepository>();
-            
+            services.AddScoped<IClinicaRepository, ClinicaRepository>();
+
 
             services.AddScoped<INotificador, Notificador>();
             services.AddScoped<IConsultaService, ConsultaService>();
-           
+            services.AddScoped<IClinicaService, ClinicaService>();
             services.AddScoped<IMedicoService, MedicoService>();
             
 

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,14 +29,9 @@ builder.Services.AddWebApiConfig();
 
 builder.Services.ResolveDependencies();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.Configure<JsonOptions>(options =>
-{
-    options.SerializerOptions.PropertyNameCaseInsensitive = true;
-});
+builder.Services.AddControllers().AddJsonOptions(x =>
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
-
-
-builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.AddSwaggerGen(c => {
     c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());

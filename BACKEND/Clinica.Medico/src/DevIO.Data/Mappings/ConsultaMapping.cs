@@ -15,7 +15,9 @@ namespace DevIO.Data.Mappings
         {
             builder.HasKey(prop => prop.Id);
 
-
+            builder.Property(c => c.Nome)
+                .IsRequired()
+                .HasColumnType("varchar(200)");
         }
     }
 }

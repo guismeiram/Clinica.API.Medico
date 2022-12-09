@@ -55,6 +55,10 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(200)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("MedicoId");
@@ -105,13 +109,13 @@ namespace DevIO.Data.Migrations
 
             modelBuilder.Entity("DevIO.Bussines.Models.Consulta", b =>
                 {
-                    b.HasOne("DevIO.Bussines.Models.Medico", "Medico")
+                    b.HasOne("DevIO.Bussines.Models.Medico", "Medicos")
                         .WithMany("Consultas")
                         .HasForeignKey("MedicoId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Medico");
+                    b.Navigation("Medicos");
                 });
 
             modelBuilder.Entity("DevIO.Bussines.Models.Medico", b =>

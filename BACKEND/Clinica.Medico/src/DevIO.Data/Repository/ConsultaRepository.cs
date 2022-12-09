@@ -21,11 +21,10 @@ namespace DevIO.Data.Repository
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente(string id)
+        public async Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente()
         {
-            return await Db.Consulta.Where(a => a.Id == id)
-               .Include(a => a.Medicos)
-               .ToListAsync();
+            return await Db.Consulta.AsNoTracking().Include(f => f.Medicos)
+                .OrderBy(p => p.Nome).ToListAsync();
         }
 
         public Task<Consulta> ObterConsultaPaciente(string id)

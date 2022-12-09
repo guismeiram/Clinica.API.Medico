@@ -28,7 +28,7 @@ namespace DevIO.Api.V1.Controllers
         [HttpGet]
         public async Task<IEnumerable<ConsultaViewModel>> ObterTodos()
         {
-            return _mapper.Map<IEnumerable<ConsultaViewModel>>(await _consultaRepository.ObterTodos());
+            return _mapper.Map<IEnumerable<ConsultaViewModel>>(await _consultaRepository.obterConsultaClinicaPaciente());
         }
 
         [HttpGet]

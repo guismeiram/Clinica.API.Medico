@@ -1,5 +1,6 @@
 ﻿using DevIO.Api.ViewModels;
 using DevIO.Bussines.Models;
+using Newtonsoft.Json;
 
 namespace DevIO.Api.ViewModels
 {
@@ -7,15 +8,16 @@ namespace DevIO.Api.ViewModels
     {
         //ids
         public string Id { get; set; }
-        public string ClinicaId { get; set; }
         public string Nome { get; set; }
         public string Crm { get; set; }
         public int Idade { get; set; }
         public string Telefone { get; set; }
         public string Ddd { get; set; }
+
+
         // relacionamentos
-        public virtual ConsultaViewModel Consultas { get; set; }
-        public virtual IEnumerable<ClinicaViewModel> Clinicas { get; set; }
+        public virtual ClinicaViewModel Clinicas { get; set; }
+        public virtual IEnumerable<ConsultaViewModel> Consultas { get; set; }
 
     }
 }

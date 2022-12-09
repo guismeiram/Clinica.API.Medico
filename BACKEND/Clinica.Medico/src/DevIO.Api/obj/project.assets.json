@@ -1015,7 +1015,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "FluentValidation": "11.2.2"
+          "FluentValidation": "11.2.2",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/DevIO.Bussines.dll": {}

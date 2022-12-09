@@ -12,14 +12,14 @@ namespace DevIO.Bussines.Services
     public class MedicoService : BaseService, IMedicoService
     {
         private readonly IMedicoRepository _medicoRepository;
-        private readonly IConsultaRepository _consultaRepository;
+        private readonly IClinicaRepository _clinicaRepository;
 
         public MedicoService(INotificador notificador,
                               IMedicoRepository medicoRepository,
-                              IConsultaRepository consultaRepository) : base(notificador)
+                              IClinicaRepository clinicaRepository) : base(notificador)
         {
             _medicoRepository = medicoRepository;
-            _consultaRepository = consultaRepository;
+            _clinicaRepository = clinicaRepository;
         }
 
         public async Task<bool> Adicionar(Medico medico)
@@ -44,7 +44,7 @@ namespace DevIO.Bussines.Services
         public void Dispose()
         {
             _medicoRepository?.Dispose();
-            _consultaRepository?.Dispose();
+            _clinicaRepository?.Dispose();
         }
 
         public Task<bool> Remover(string id)
