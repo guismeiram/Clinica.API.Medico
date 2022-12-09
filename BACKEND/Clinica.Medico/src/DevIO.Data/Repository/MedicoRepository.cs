@@ -1,6 +1,7 @@
 ﻿using DevIO.Bussines.Interface;
 using DevIO.Bussines.Models;
 using DevIO.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,9 @@ namespace DevIO.Data.Repository
         {
         }
 
-        public Task<IEnumerable<Medico>> obterConsultaMedico(string id)
+        public async Task<IEnumerable<Medico>> obterConsultaMedico()
         {
-            throw new NotImplementedException();
+            return await Db.Medico.AsNoTracking().Include(f => f.Clinicas).ToListAsync();     
         }
     }
 }
