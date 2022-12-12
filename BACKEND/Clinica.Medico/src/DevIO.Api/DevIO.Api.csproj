@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <None Remove="4qvrs3em.53e~" />
+    <None Remove="Configuration\AutomapperConfig.cs~RF1cee3a2.TMP" />
+    <None Remove="Configuration\AutomapperConfig.cs~RF2b46dc7.TMP" />
     <None Remove="V1\Controllers\EspecialidadeController.cs~RF34e8c10.TMP" />
     <None Remove="ViewModels\5ecejucm.vc4~" />
     <None Remove="ViewModels\ConsultaViewModel.cs~RF49b860.TMP" />
@@ -17,6 +19,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.10" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />

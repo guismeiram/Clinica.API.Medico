@@ -27,14 +27,11 @@ namespace DevIO.Bussines.Services
             await _consultaRepository.Adicionar(consulta);
         }
 
-        public Task Atualizar(Consulta consulta)
+        public async Task Atualizar(Consulta consulta)
         {
-            throw new NotImplementedException();
-        }
+            if (!ExecutarValidacao(new ConsultaValidation(), consulta)) return;
 
-        public Task AtualizarEndereco(Consulta consulta)
-        {
-            throw new NotImplementedException();
+            await _consultaRepository.Atualizar(consulta);
         }
 
         public void Dispose()
@@ -42,9 +39,9 @@ namespace DevIO.Bussines.Services
             _consultaRepository?.Dispose();
         }
 
-        public Task Remover(Guid id)
+        public async Task Remover(string id)
         {
-            throw new NotImplementedException();
+            await _consultaRepository.Remover(id);
         }
     }
 }

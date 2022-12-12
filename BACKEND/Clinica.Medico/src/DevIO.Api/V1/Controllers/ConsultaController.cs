@@ -3,6 +3,7 @@ using DevIO.Api.Controllers;
 using DevIO.Api.ViewModels;
 using DevIO.Bussines.Interface;
 using DevIO.Bussines.Models;
+using DevIO.Bussines.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,16 +32,7 @@ namespace DevIO.Api.V1.Controllers
             return _mapper.Map<IEnumerable<ConsultaViewModel>>(await _consultaRepository.obterConsultaClinicaPaciente());
         }
 
-        [HttpGet]
-        [Route("ObterEnderecoPorId", Name = "ObterEnderecoPorId")]
-        public async Task<ConsultaViewModel> ObterEnderecoPorId(string id)
-        {
-            var convenio = await ObterFornecedorProdutosEndereco(id);
-
-            //if (convenio == null) return NotFound();
-
-            return convenio;
-        }
+       
 
         [HttpPost]
         public async Task<ActionResult<ConsultaViewModel>> Adicionar(ConsultaViewModel consultaViewModel)
@@ -52,9 +44,67 @@ namespace DevIO.Api.V1.Controllers
             return CustomResponse(consultaViewModel);
         }
 
-        private async Task<ConsultaViewModel> ObterFornecedorProdutosEndereco(string id)
+        [HttpGet]
+        [Route("ObterConsultaPorId", Name = "ObterConsultaPorId")]
+        public async Task<ActionResult<ConsultaViewModel>> ObterConsultaPorId(string id)
         {
-            return _mapper.Map<ConsultaViewModel>(await _consultaRepository.ObterPorId(id));
+            ConsultaViewModel consulta = await ObterConsultaMedica(id);
+
+            if (consulta == null) return NotFound();
+            if (id == null) return NotFound();
+
+            return Ok(consulta);
+        }
+
+        [HttpPut]
+        [Route("ObterConsultaPorId", Name = "ObterConsultaPorId")]
+        public async Task<ActionResult<ConsultaViewModel>> Atualizar(string id, ConsultaViewModel consultaViewModel)
+        {
+            if (id != consultaViewModel.Id)
+            {
+                NotificarErro("O id informado não é o mesmo que foi passado na query");
+                return CustomResponse(consultaViewModel);
+            }
+
+            var consultaAtualizacao = await ObterConsultaMedica(id);
+
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            consultaAtualizacao.Id = consultaViewModel.Id;
+            consultaAtualizacao.Nome = consultaViewModel.Nome;
+            consultaAtualizacao.Data = consultaViewModel.Data;
+            consultaAtualizacao.Medicos.Id = consultaViewModel.Medicos.Id;
+            consultaAtualizacao.Medicos.Idade = consultaViewModel.Medicos.Idade;
+            consultaAtualizacao.Medicos.Ddd = consultaViewModel.Medicos.Ddd;
+            consultaAtualizacao.Medicos.Crm = consultaViewModel.Medicos.Crm;
+            consultaAtualizacao.Medicos.Nome = consultaViewModel.Medicos.Nome;
+            consultaAtualizacao.Medicos.NomeClinica = consultaViewModel.Medicos.NomeClinica;
+            consultaAtualizacao.Medicos.Telefone = consultaViewModel.Medicos.Telefone;
+
+            await _consultaService.Atualizar(_mapper.Map<Consulta>(consultaAtualizacao));
+
+            return CustomResponse(consultaViewModel);
+        }
+
+
+
+        private async Task<ConsultaViewModel> ObterConsultaMedica(string id)
+        {
+            return _mapper.Map<ConsultaViewModel>(await _consultaRepository.obterConsultaMedica(id));
+        }
+
+        [HttpDelete]
+        [Route("ObterConsultaPorId", Name = "ObterConsultaPorId")]
+        public async Task<ActionResult<ConsultaViewModel>> Excluir(string id)
+        {
+            ConsultaViewModel consulta = await ObterConsultaMedica(id);
+
+            if (consulta == null) return NotFound();
+            if (id == null) return NotFound();
+
+            await _consultaService.Remover(id);
+
+            return CustomResponse(consulta);
         }
     }
 }

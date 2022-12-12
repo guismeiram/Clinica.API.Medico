@@ -22,15 +22,13 @@ builder.Services.AddDbContext<ClinicaDbContext>(options =>
 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddEndpointsApiExplorer();
-
-
 builder.Services.AddWebApiConfig();
-
 builder.Services.ResolveDependencies();
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
 
 
 builder.Services.AddSwaggerGen(c => {

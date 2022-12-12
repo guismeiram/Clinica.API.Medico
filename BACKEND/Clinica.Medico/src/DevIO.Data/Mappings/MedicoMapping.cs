@@ -36,9 +36,7 @@ namespace DevIO.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(200)");
 
-            //1 : 1 Medico : Clinica
-            builder.HasOne(e => e.Clinicas)
-                .WithOne(m => m.Medicos);
+           
 
             //1 : N Medico : Consulta
             builder.HasMany(c => c.Consultas)

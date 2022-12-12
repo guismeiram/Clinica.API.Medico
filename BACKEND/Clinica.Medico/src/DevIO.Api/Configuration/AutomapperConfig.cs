@@ -8,12 +8,15 @@ namespace DevIO.Api.Configuration
     {
         public AutoMapperConfig()
         {
-
-            CreateMap<Medico, MedicoViewModel>().ReverseMap();
-            CreateMap<Clinica, ClinicaViewModel>().ReverseMap();
+            CreateMap<MedicoViewModel, Medico>().ReverseMap();
             CreateMap<ConsultaViewModel, Consulta>();
 
-            CreateMap<Consulta, ConsultaViewModel>().ForMember(x => x.Nome, opt => opt.MapFrom(src => src.Medicos.Nome));
+            //one to many
+            CreateMap<Consulta, ConsultaViewModel>()
+                .ForMember(x => x.Nome, opt => opt.MapFrom(src => src.Medicos.Nome));
+                
+
+
         }
     }
 }

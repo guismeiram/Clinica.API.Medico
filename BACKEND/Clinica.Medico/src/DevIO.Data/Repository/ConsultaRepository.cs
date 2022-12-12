@@ -16,9 +16,11 @@ namespace DevIO.Data.Repository
         {
         }
 
-        public Task<Consulta> obterConsultaClinica(string id)
+        public async Task<Consulta> obterConsultaMedica(string id)
         {
-            throw new NotImplementedException();
+            return await Db.Consulta.AsNoTracking()
+                .Include(c => c.Medicos)
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente()

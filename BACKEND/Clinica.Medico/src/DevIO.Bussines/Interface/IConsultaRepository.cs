@@ -10,7 +10,7 @@ namespace DevIO.Bussines.Interface
     public interface IConsultaRepository : IRepository<Consulta>
     {
         Task<IEnumerable<Consulta>> obterConsultaClinicaPaciente();
-        Task<Consulta> obterConsultaClinica(String id);
+        Task<Consulta> obterConsultaMedica(String id);
         Task<Consulta> ObterConsultaPaciente(String id);
     }
 }

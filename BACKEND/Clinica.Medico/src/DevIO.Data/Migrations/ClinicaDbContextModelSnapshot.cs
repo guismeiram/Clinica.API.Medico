@@ -22,27 +22,6 @@ namespace DevIO.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("DevIO.Bussines.Models.Clinica", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("MedicoId")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("NomeClinica")
-                        .IsRequired()
-                        .HasColumnType("varchar(200)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MedicoId")
-                        .IsUnique();
-
-                    b.ToTable("Clinica");
-                });
-
             modelBuilder.Entity("DevIO.Bussines.Models.Consulta", b =>
                 {
                     b.Property<string>("Id")
@@ -52,7 +31,6 @@ namespace DevIO.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("MedicoId")
-                        .IsRequired()
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("Nome")
@@ -72,7 +50,6 @@ namespace DevIO.Data.Migrations
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("Crm")
-                        .IsRequired()
                         .HasColumnType("varchar(250)");
 
                     b.Property<string>("Ddd")
@@ -87,6 +64,9 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
+                    b.Property<string>("NomeClinica")
+                        .HasColumnType("varchar(100)");
+
                     b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("varchar(200)");
@@ -96,33 +76,18 @@ namespace DevIO.Data.Migrations
                     b.ToTable("Medico", (string)null);
                 });
 
-            modelBuilder.Entity("DevIO.Bussines.Models.Clinica", b =>
-                {
-                    b.HasOne("DevIO.Bussines.Models.Medico", "Medicos")
-                        .WithOne("Clinicas")
-                        .HasForeignKey("DevIO.Bussines.Models.Clinica", "MedicoId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Medicos");
-                });
-
             modelBuilder.Entity("DevIO.Bussines.Models.Consulta", b =>
                 {
                     b.HasOne("DevIO.Bussines.Models.Medico", "Medicos")
                         .WithMany("Consultas")
                         .HasForeignKey("MedicoId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Medicos");
                 });
 
             modelBuilder.Entity("DevIO.Bussines.Models.Medico", b =>
                 {
-                    b.Navigation("Clinicas")
-                        .IsRequired();
-
                     b.Navigation("Consultas");
                 });
 #pragma warning restore 612, 618

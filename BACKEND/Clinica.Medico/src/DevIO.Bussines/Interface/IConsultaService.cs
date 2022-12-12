@@ -11,7 +11,7 @@ namespace DevIO.Bussines.Interface
     {
         Task Adicionar(Consulta consulta);
         Task Atualizar(Consulta consulta);
-        Task Remover(Guid id);
+        Task Remover(string id);
 
     }
 }
