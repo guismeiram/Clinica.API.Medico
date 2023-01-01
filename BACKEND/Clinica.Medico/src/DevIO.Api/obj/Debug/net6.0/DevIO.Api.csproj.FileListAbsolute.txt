@@ -146,3 +146,8 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\staticwebassets\msbuild.DevIO.Api.Microsoft.AspNetCore.StaticWebAssets.props
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.DevIO.Api.props
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DevIO.Api.props
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DevIO.Api.props
+G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Api\obj\Debug\net6.0\staticwebassets.pack.json

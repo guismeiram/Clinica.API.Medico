@@ -4,6 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6e2de1f0-7b72-401b-ad89-c98b2bbf5280</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,6 +31,7 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.9" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
 
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />

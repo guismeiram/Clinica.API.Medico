@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  devio.api:
+    image: ${DOCKER_REGISTRY-}devioapi
+    build:
+      context: .
+      dockerfile: src/DevIO.Api/Dockerfile
+    depends_on:
+       image: microsoft.com/mssql/server:2022-latest
+       hostname: 'sqlserver'
+       enviroment:
+        ACCEPT_EULA: 'Y'
+        SA_PASSORD: "Numsey#2021"
+    volumes:
+    - c:\dados\volumes\mssql:/var/opt/mssql3
+    ports:
+    - '11433:1433'
+    expose:
+    - 1433 

@@ -32,7 +32,7 @@ namespace DevIO.Api.V1.Controllers
             return _mapper.Map<IEnumerable<ConsultaViewModel>>(await _consultaRepository.obterConsultaClinicaPaciente());
         }
 
-       
+
 
         [HttpPost]
         public async Task<ActionResult<ConsultaViewModel>> Adicionar(ConsultaViewModel consultaViewModel)
