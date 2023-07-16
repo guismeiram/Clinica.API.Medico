@@ -66,3 +66,20 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Bussines.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\bin\Debug\net6.0\DevIO.Bussines.pdb
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

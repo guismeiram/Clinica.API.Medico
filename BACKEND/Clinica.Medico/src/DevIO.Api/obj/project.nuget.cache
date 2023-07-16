@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cPHND5K9HObAFW3nccJ+52h1XS84+WJXLj68yhXGUgchF+46IWSMqEmZerf6Ls4NvMSt2hXqLF+5pGA1dYn3KQ==",
+  "dgSpecHash": "QI9HQ23K9Dn2oNa2HfTj+aMlOTVvPwZwPgvcHmMF3F6Y11eFANTKObUVUHTATAfGeF0LxevDMnEY3+O2HKTYyg==",
   "success": true,
-  "projectFilePath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -70,10 +70,10 @@
     "C:\\Users\\guism\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512"
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

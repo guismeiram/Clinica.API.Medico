@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {}
+    "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {}
   },
   "projects": {
-    "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
+    "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "projectUniqueName": "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
         "projectName": "DevIO.Bussines",
-        "projectPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
+        "projectPath": "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\DevIO.Bussines.csproj",
         "packagesPath": "C:\\Users\\guism\\.nuget\\packages\\",
-        "outputPath": "G:\\TRABALHO\\ESTUDOS\\Projetos\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\obj\\",
+        "outputPath": "C:\\Users\\guism\\OneDrive\\Área de Trabalho\\Clinica.API.Medico\\BACKEND\\Clinica.Medico\\src\\DevIO.Bussines\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\guism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,15 +67,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.20, 6.0.20]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.20, 6.0.20]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.20, 6.0.20]"
             }
           ],
           "frameworkReferences": {
@@ -79,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -17,8 +18,12 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 // ConfigureServices
-builder.Services.AddDbContext<ClinicaDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<ClinicaDbContext>(options => options
+                .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+                b => b.MigrationsAssembly(typeof(ClinicaDbContext).Assembly.FullName)));
+
+/*builder.Services.AddDbContext<ClinicaDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));*/
 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

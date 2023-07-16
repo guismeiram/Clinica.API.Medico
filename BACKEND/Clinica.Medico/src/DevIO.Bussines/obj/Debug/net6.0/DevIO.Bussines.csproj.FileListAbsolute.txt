@@ -46,3 +46,15 @@ G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.dll
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.pdb
 G:\TRABALHO\ESTUDOS\Projetos\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\ref\DevIO.Bussines.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.deps.json
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\bin\Debug\net6.0\DevIO.Bussines.pdb
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.csproj.AssemblyReference.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.AssemblyInfoInputs.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.AssemblyInfo.cs
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.csproj.CoreCompileInputs.cache
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\refint\DevIO.Bussines.dll
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\DevIO.Bussines.pdb
+C:\Users\guism\OneDrive\Área de Trabalho\Clinica.API.Medico\BACKEND\Clinica.Medico\src\DevIO.Bussines\obj\Debug\net6.0\ref\DevIO.Bussines.dll

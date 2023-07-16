@@ -5,21 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>6e2de1f0-7b72-401b-ad89-c98b2bbf5280</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
     <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="4qvrs3em.53e~" />
-    <None Remove="Configuration\AutomapperConfig.cs~RF1cee3a2.TMP" />
-    <None Remove="Configuration\AutomapperConfig.cs~RF2b46dc7.TMP" />
-    <None Remove="V1\Controllers\EspecialidadeController.cs~RF34e8c10.TMP" />
-    <None Remove="ViewModels\5ecejucm.vc4~" />
-    <None Remove="ViewModels\ConsultaViewModel.cs~RF49b860.TMP" />
-    <None Remove="ViewModels\ConsultaViewModel.cs~RFb9d4c1.TMP" />
-    <None Remove="ViewModels\ieib0ikh.lw1~" />
-  </ItemGroup>
+
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
@@ -37,10 +28,6 @@
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
 	</ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="V2\" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DevIO.Bussines\DevIO.Bussines.csproj" />
